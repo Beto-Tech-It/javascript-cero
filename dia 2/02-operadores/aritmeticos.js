@@ -15,7 +15,7 @@ console.log("la division de las respuestas es : " + division);
 let modulo = a % b;
 console.log("el modulo de las respuestas es : " + modulo);
 
-let incremento = --a;
+let incremento = ++a;
 console.log("el incremento de a es : " + incremento);
 
 let decremento = --b

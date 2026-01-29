@@ -8,7 +8,7 @@ let nulo = null;
 
 console.log(typeof numero);
 console.log(typeof texto);
-console.log(typeof booleano);   
-console.log(typeof booleano2);
+console.log(typeof verdadero);   
+console.log(typeof falso);
 console.log(typeof noDefinido);
 console.log(typeof nulo);

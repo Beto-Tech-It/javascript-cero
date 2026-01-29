@@ -36,7 +36,7 @@ console.log("Menor que: " + (x < y)); //false
 console.log("Mayor o igual que: " + (x >= y)); //true
 console.log("Menor o igual que: " + (x <= y)); //false         
 
-//operadores lógicos
+//operadores lógicos 
 
 console.log("AND lógico: " + (6 > 5 && 44 < 10)); //false
 console.log("OR lógico: " + (6 < 5 || 4 < 10)); //true

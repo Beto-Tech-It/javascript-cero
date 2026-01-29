@@ -20,20 +20,19 @@ const person = {
 };
 
 person.ojos.observar();
+person.mirar();
 
-
-/*
-console.log(person);
-person.saludar();
+//console.log(person);
 
 person.talla = "1.75m";
 console.log(person);
 
-//delete person.talla;
-//console.log(person);
-
+delete person.talla;
+console.log(person);
 person.hobby = "bailar";    
 
 console.log("mi hobby es "+ person.hobby)
-person.mirar();
-*/
+
+
+
+

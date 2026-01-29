@@ -4,7 +4,7 @@ console.log('Hola mundo cruel porfavor')
 
 /*
 Esto es un comentario
-de varias lineas
+de varias lineas.
 */
 console.log(7+4)
 console.log(7-4)

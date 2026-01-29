@@ -1,12 +1,12 @@
-console.log("hola mundo desde console.js");
+console.log("hola mundo desde console.js");//uso de console
 
-console.error("esto es un error", new Error("conexion fallida"));
+//console.error("esto es un error", new Error("conexion fallida"));//mensaje de error
 
-console.warn("esto es una advertencia");
+console.warn("esto es una advertencia");//mensaje de advertencia
 
-console.info("esto es una informacion importante");
+console.info("esto es una informacion importante");//mensaje de informacion
 
-let data = {
+let data = { //objeto
     nombre: "Humberto",
     edad: 25,
     profesion: "developer"
@@ -24,12 +24,12 @@ console.groupEnd();
 
 console.time("miTiempo");
 //codigo a medir
-for (let i = 0; i < 1000000; i++) {
+for (let i = 0; i < 10; i++) {
 
 }
 console.timeEnd("miTiempo");
 
-let x=5;
+let x=2;
 
-console.assert( x > 3 , "el valor de x es mayor que 3");
-console.assert( x < 3 , "el valor de x es menor que 3");
+console.assert( x > 3 , "el valor de x es menor que 3");//no muestra nada porque la condicion es verdadera
+console.assert( x < 3 , "el valor de x es mayor que 3");//muestra el mensaje porque la condicion es falsa

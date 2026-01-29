@@ -10,4 +10,4 @@ function numeroMayor(a, b) {
   }
 }
 
-let mayor = numeroMayor(55, 44);
+let mayor = numeroMayor(5, 44);

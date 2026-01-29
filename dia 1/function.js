@@ -65,7 +65,7 @@ function externo() {
 
 externo();
 
-//foreach como función
+//foreach como función.
 
 const valor = [1, 2, 3];
 valor.forEach(value => console.log(value));

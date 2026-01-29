@@ -1,3 +1,3 @@
 import { miFuncionConParametros } from "./function.js";
 
-miFuncionConParametros("Ana", 30);
+miFuncionConParametros("Ana",30);

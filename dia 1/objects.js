@@ -59,7 +59,7 @@ let estudiante = {
 };
 console.log(`Nombre: ${estudiante.nombre}`);
 console.log(`Ciudad: ${estudiante.direccion.ciudad}`);
-console.log(`Cursos: ${estudiante.cursos.join(", ")}`);
+console.log(`Cursos: ${estudiante.cursos.join(", ")}`);//unir elementos del array en una cadena
 //métodos con objetos anidados
 estudiante.direccion.mostrarDireccion = function() {
   console.log(`Dirección: ${this.calle}, ${this.ciudad}, ${this.pais}`);

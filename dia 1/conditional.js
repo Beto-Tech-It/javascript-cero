@@ -1,10 +1,10 @@
 //if, else if, else
 
-let age = 63;
+let age = 22;
 
 if (age == 18) {
   console.log("Con las justas llegas a mayor de edad");
-} else if (age < 18) {
+} else if (age < 18 && age > 0) {
   console.log("Eres menor de edad.");
 } else if (age > 18 && age < 65) {
   console.log("Eres un adulto.");
@@ -13,7 +13,7 @@ if (age == 18) {
 }
 
 
-let day = 7; //0 - lunes, 1 - martes, 2 - miércoles, 3 - jueves, 4 - viernes, 5 - sábado, 6 - domingo
+let day = 23; //0 - lunes, 1 - martes, 2 - miércoles, 3 - jueves, 4 - viernes, 5 - sábado, 6 - domingo
 
 let dayName;
 
@@ -47,6 +47,6 @@ switch (day) {
     break;
 
   default:
-    dayName = "Día inválido";
+    dayName = "Inválido";
 }
 console.log("El día es: " + dayName);

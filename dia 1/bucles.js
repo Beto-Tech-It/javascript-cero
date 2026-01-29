@@ -25,15 +25,15 @@ do{
     console.log(`El valor de i es: ${i}`);
     i++;
 }
-while(i < 20);
+while(i < 5);
 
 //break y continue
 for (let j = 1; j <= 10; j++) {
     if (j === 6) {
-        continue;
+        continue; //salta la iteración cuando j es igual a 6
     }
     if (j === 8) {
-        break;
+        break;// detiene el bucle cuando j es igual a 8
     }
         console.log(`El valor de j es: ${j}`);
     }

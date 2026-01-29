@@ -2,7 +2,7 @@ let myMap   = new Map();
 
 myMap.set("name", "Humberto");
 myMap.set("age", 25);
-myMap.set("country", "Peru");
+myMap.set("country","Peru");
 
 console.log(myMap);
 

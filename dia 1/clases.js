@@ -34,7 +34,7 @@ const person2 = new Person2("Carlos", 30, 8838383);
 console.log(person2);
 
 //clase con metodos
-class PersonaNatural {
+class PersonaNatural{
   constructor(nombre, apellido) {
     this.nombre = nombre;
     this.apellido = apellido;
@@ -44,7 +44,7 @@ class PersonaNatural {
   }
 }
 
-personaNueva = new PersonaNatural("Ana", "Gomez");
+let personaNueva = new PersonaNatural("Ana", "Gomez");
 
 console.log(personaNueva);
 personaNueva.caminar();
@@ -62,15 +62,15 @@ class GetSetPersona {
     this.#alias = alias;
     this.#newCuenta = newCuenta;
   }
-  get nombre() {
+  get nombre() { //para obtener el valor
     return this.#nombre;
   }
-  set nombre(nuevoNombre) {
+  set nombre(nuevoNombre) {//para modificar el valor
     this.#nombre = nuevoNombre;
   }
 }
-person5 = new GetSetPersona("Luis", "Lopez", "luisito", 55443322);
-console.log(person5);
+let person5 = new GetSetPersona("Luis", "Lopez", "luisito", 55443322);
+//console.log(person5);
 console.log(person5.nombre);
 person5.nombre = "Carlos";
 console.log(person5.nombre);

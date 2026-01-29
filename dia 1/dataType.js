@@ -35,5 +35,5 @@ console.log(uniqueId);
 let bigNumber = 9007199254741991n;
 console.log(bigNumber);
 
-//tyypeof operador para verificar el tipo de dato
+//tyypeof operador para verificar el tipo de dato.
 console.log(typeof myName);
